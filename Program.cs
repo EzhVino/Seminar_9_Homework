@@ -1,4 +1,4 @@
-﻿// Задайте значение N, M. Напишите программу, которая выведет все натуральные числа в промежутке от M до N.
+﻿// ЗАДАЙТЕ ЗНАЧЕНИЕ N, M. НАПИШИТЕ ПРОГРАММУ, КОТОРАЯ ВЫВЕДЕТ ВСЕ НАТУРАЛЬНЫЕ ЧИСЛА В ПРОМЕЖУТКЕ ОТ M ДО N
 
 // string PrintNumbers(int start, int end)
 // {
@@ -15,7 +15,7 @@
 // else
 //     Console.WriteLine(PrintNumbers(m, n));
 
-// Задать значения M и N Найти сумму натуральных элементов в промежутке от M до N
+// ЗАДАЙТЕ ЗНАЧЕНИЯ M И N. НАПИШИТЕ ПРОГРАММУ, КОТОРАЯ НАЙДЁТ СУММУ НАТУРАЛЬНЫХ ЭЛЕМЕНТОВ В ПРОМЕЖУТКЕ ОТ M ДО N
 
 // int SumNumbers(int numFirst, int numSecond)
 // {
@@ -32,7 +32,7 @@
 // else
 //     Console.WriteLine(SumNumbers(m, n));
 
-// Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+// НАПИШИТЕ ПРОГРАММУ ВЫЧИСЛЕНИЯ ФУНКЦИИ АККЕРМАНА С ПОМОЩЬЮ РЕКУРСИИ. ДАНЫ ДВА НЕОТРИЦАТЕЛЬНЫХ ЧИСЛА M И N
 
 int Ackermann(int frstNum, int sndNum)
 {
@@ -46,9 +46,9 @@ int Ackermann(int frstNum, int sndNum)
 }
 
 Console.Clear();
-Console.Write("Enter M: ");
+Console.Write("Enter positive number M: ");
 int m = int.Parse(Console.ReadLine());
-Console.Write("Enter N: ");
+Console.Write("Enter positive number N: ");
 int n = int.Parse(Console.ReadLine());
 
 Console.WriteLine();
